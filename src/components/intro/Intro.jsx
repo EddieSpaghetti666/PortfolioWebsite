@@ -12,7 +12,7 @@ export default function Intro() {
               typeSpeed: 50,
               backDelay: 1000,
               backSpeed: 30,
-              strings: ['Gorillionaire Grindset', 'Sigma Male', '6\'8\"'] })
+              strings: ['Gorillionaire Grindset', 'Sigma Male', '6\'8"'] })
     }, [])
     return (
         <div className="intro" id="intro">
