@@ -16,12 +16,8 @@ export default function Intro() {
     }, [])
     return (
         <div className="intro" id="intro">
-            <div className="left">
                 <div className="imgContainer">
-                    <img src="assets/jb.jpg" alt="" />
-                </div>
-            </div>
-            <div className="right">
+                <img src="https://www.10wallpaper.com/wallpaper/1366x768/1701/Apple_laptop_notebook_notes-Brand_HD_Wallpaper_1366x768.jpg" alt="" />
                 <div className="wrapper">
                     <h2>Hi There, I'm</h2>
                     <h1>David Smith</h1>
@@ -30,7 +26,8 @@ export default function Intro() {
                 <a href="#portfolio">
                     <KeyboardArrowDown className="icon"/>
                 </a>
-            </div>
+                </div>
+            
         </div>
     )
 }

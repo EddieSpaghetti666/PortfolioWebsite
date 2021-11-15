@@ -1,35 +1,38 @@
 import "./Works.scss"
-import { PhoneIphone, ArrowBackIos, ArrowForwardIos} from "@material-ui/icons"
+import { ArrowBackIos, ArrowForwardIos, GitHub} from "@material-ui/icons"
 import { useState } from "react"
 export default function Works() {
     const [currentSlide, setSlide] = useState(0);
     const data = [
         {
-            id: "web",
+            id: "tetris",
             icon: "./assets/mobile.png",
-            title: "Web Design",
+            title: "Tetris",
             desc:
-              "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+              "A Tetris clone written in C++. I learned a lot working on this project. It was one of my first large C/C++ projects. It was my first time working with SDL. It was also my first time working on a project with another person outside of school.",
             img:
-              "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
+              "./assets/tetrisProject.png",
+            link:"https://github.com/EddieSpaghetti666/Tetris",
           },
           {
-            id: "mobile",
+            id: "webserver",
             icon: "./assets/globe.png",
-            title: "Mobile Application",
+            title: "C Web Server",
             desc:
-              "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+              "A simple web server in C. Able to parse and handle GET requests and serve html. Picture vaguely related.",
             img:
-              "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
+              "./assets/webServerProject.jpg",
+            link:"https://github.com/EddieSpaghetti666/C-Web-Server",
           },
           {
-            id: "branding",
+            id: "chess",
             icon: "./assets/writing.png",
-            title: "Branding",
+            title: "Chess",
             desc:
-              "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+              "Chess written in Java. I learned a lot about Object Oriented Programming from this project. This was one of my first larger projects.",
             img:
-              "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
+              "./assets/chessProject.png",
+            link:"https://github.com/EddieSpaghetti666",
           },
     ]
 
@@ -42,6 +45,7 @@ export default function Works() {
     }
     return (
         <div className="works" id="works">
+            <h1>My Projects</h1>
             <div
                 className="slider"
                 style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
@@ -51,16 +55,14 @@ export default function Works() {
             <div className="item">
               <div className="left">
                 <div className="leftContainer">
-                  <div className="imgContainer">
-                    <PhoneIphone className="icon"/>
-                  </div>
                   <h2>{item.title}</h2>
                   <p>{item.desc}</p>
+                  <a target="_blank" rel="noopener noreferrer" href={item.link}><GitHub></GitHub></a>
                 </div>
               </div>
               <div className="right">
                 <img
-                  src="https://images.idgesg.net/images/article/2019/03/c-plus-plus_code-100790020-large.jpg?auto=webp&quality=85,70"
+                  src={item.img}
                   alt=""
                 />
               </div>
