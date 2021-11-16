@@ -23,7 +23,7 @@ export default function Intro() {
                     <h1>David Smith</h1>
                     <h3>Programmer <span ref={textRef}></span></h3>
                 </div>
-                <a href="#portfolio">
+                <a href="#works">
                     <KeyboardArrowDown className="icon"/>
                 </a>
                 </div>

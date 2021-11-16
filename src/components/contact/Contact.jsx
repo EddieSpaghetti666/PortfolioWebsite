@@ -1,6 +1,7 @@
 import "./Contact.scss"
 import { useState } from "react";
 import emailjs from "emailjs-com"
+import AboutMe from "../aboutme/AboutMe";
 
 export default function Contact() {
     const [message,setMessage] = useState(false)
@@ -17,7 +18,7 @@ export default function Contact() {
     return (
         <div className="contact" id="contact">
             <div className="left">
-                <img src="assets/shake.svg" alt="" />
+                <AboutMe/>
             </div>
             <div className="right">
                 <h2>Contact.</h2>

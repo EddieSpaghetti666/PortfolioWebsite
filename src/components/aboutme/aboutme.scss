@@ -1,0 +1,50 @@
+@import "../../Global.scss";
+.aboutme {
+  * {
+    margin: 5px 2px;
+  }
+
+  overflow: hidden;
+  img {
+    display: block;
+    height: 200px;
+    align-self: center;
+    margin-top: 50px;
+  }
+
+  h2 {
+    display: inline-block;
+    margin-top: 2em;
+    font-weight: 700;
+    font-size: 40px;
+  }
+  h4 {
+    font-weight: 500;
+    font-size: 30px;
+  }
+  hr {
+    width: 50%;
+  }
+  p {
+    display: block;
+    margin: 20px 2px;
+    font-weight: 200;
+    font-size: 20px;
+  }
+
+
+  .skillContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+    .skill{
+      padding: 0 10px;
+      display: flex;
+      width: 100px;
+      height: auto;
+    
+    }
+  }
+}
