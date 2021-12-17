@@ -12,13 +12,15 @@ export default function AboutMe() {
         <h2>About Me</h2>
         <hr />
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          I'm a programmer from Waterford NY. I have a Associate's Degree in
+          Computer Science from Schenectady County Community College, and am
+          close to completing my Bachelors Degree at SUNY Albany. I love solving
+          problems with code. So far, most of my experience has been with C++,
+          Java, and C; but I'm interested in everything.
+        </p>
+        <p>
+          Some of my other interests include: reading, philosophy, history, and
+          fitness. Feel free to contact me about anything.
         </p>
         <hr />
         <div className="skillContainer">
@@ -47,10 +49,7 @@ export default function AboutMe() {
             />
           </div>
           <div className="skill">
-            <img
-              src="./assets/JSskill.svg"
-              alt=""
-            />
+            <img src="./assets/JSskill.svg" alt="" />
           </div>
         </div>
       </div>
