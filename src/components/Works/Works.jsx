@@ -10,7 +10,7 @@ export default function Works() {
       title: "Tetris",
       desc: "A Tetris clone written in C++. I learned a lot working on this project. It was one of my first large C/C++ projects. It was my first time working with SDL. It was also my first time working on a project with another person outside of school.",
       img: "./assets/tetrisProject.png",
-      link: "https://github.com/EddieSpaghetti666/Tetris",
+      link: "https://github.com/VimDiesel123/Tetris",
     },
     {
       id: "2hed",
@@ -18,7 +18,7 @@ export default function Works() {
       title: "2hed",
       desc: "A simple text editor written in C. This project was a lot of fun and there is a lot I want to add to it in the future. I hope to one day be able to write the text editor from within itself. Its definitely not there yet though",
       img: "./assets/2hed.png",
-      link: "https://github.com/EddieSpaghetti666/2hed",
+      link: "https://github.com/VimDiesel123/2hed",
     },
     //{
       //id: "webserver",

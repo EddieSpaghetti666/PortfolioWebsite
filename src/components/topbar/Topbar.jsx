@@ -18,9 +18,9 @@ export default function Topbar({ open, setOpen }) {
             <span>david@dsmithdev.com</span>
           </div>
           <div className="itemContainer">
-            <a href="https://github.com/EddieSpaghetti666">
+            <a href="https://github.com/VimDiesel123">
               <GitHub className="icon" />
-              <span> EddieSpaghetti</span>
+              <span> VimDiesel123</span>
             </a>
           </div>
         </div>
